@@ -32,7 +32,7 @@ ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     'todos.apps.TodosConfig',
-    'todoApp',
+    'todoApp.urls',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
